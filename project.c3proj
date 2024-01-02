@@ -1,0 +1,321 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 36802,
+	"name": "Numbers Game",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "SpeechRecognition",
+			"name": "Speech recognition",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Touch",
+			"name": "Touch",
+			"author": "Scirra",
+			"bundled": false
+		}
+	],
+	"uniqueId": "dycpngqsrj5",
+	"objectTypes": {
+		"items": [
+			"BeBackGround",
+			"MENU_START",
+			"Jungle",
+			"Keyboard",
+			"SpeechRecognition",
+			"Mouse",
+			"Touch",
+			"mic",
+			"MissionClear",
+			"SCORE",
+			"LEVEL",
+			"TEXTBARBIRDS",
+			"TEXTBARDEERS",
+			"Sprite",
+			"TEXTBARERASER",
+			"TEXTBARPENS",
+			"BARTEXTCARDS",
+			"BARTEXTBOOKS",
+			"BARTEXTCRAYONS",
+			"BARTEXTPCBUNDLE",
+			"pencils",
+			"fireWorks",
+			"Finisher",
+			"STAR",
+			"MENUBKG",
+			"outputonlinegiftools2",
+			"Menu_2",
+			"MENU_3",
+			"MENU_SC",
+			"MenuButton",
+			"VERSION",
+			"Text",
+			"Sprite2",
+			"Sprite3",
+			"Sprite4",
+			"Sprite5",
+			"ju",
+			"pencil",
+			"octoIco",
+			"Sprite6"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"flushTransition",
+					"JungleTrasnsition"
+				],
+				"subfolders": [],
+				"name": "TRANSITIONS"
+			}
+		]
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Menu",
+			"BONUS_1",
+			"BONUS_2",
+			"BONUS_3",
+			"BONUS_4",
+			"BONUS_5",
+			"BONUS_6",
+			"BONUS_7",
+			"BONUS_8",
+			"L1",
+			"L2",
+			"L3",
+			"L4",
+			"L5",
+			"L6",
+			"L7",
+			"REWARD",
+			"REWARD2"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"MENU",
+			"L1",
+			"L2",
+			"L3",
+			"L4",
+			"L5",
+			"L6",
+			"L7",
+			"REWARD",
+			"Bonus 1",
+			"Bonus 2",
+			"Bonus 3",
+			"REWARD2",
+			"Bonus 4",
+			"Bonus 5",
+			"Bonus 6",
+			"Bonus 7",
+			"Bonus 8"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 731384478954722,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 142862770522551,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 390568798192538,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 416728680036652,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 478810973161977,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 357303969898232,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 978568860365613,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Timeline 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "5.2.9",
+		"author": "Peter Murray",
+		"authorEmail": "murray.workmail1@gmail.com",
+		"authorWebsite": "https://bee-lingualmap.com/",
+		"appId": "com.beelingualmap.numbersgame",
+		"pixelRounding": false,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			1,
+			0.7568627450980392,
+			0.0196078431372549,
+			0
+		],
+		"splashColor": [
+			1,
+			0.7568627450980392,
+			0.0196078431372549,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "any",
+		"webgpu": "auto",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"zNear": 1,
+		"zFar": 10000,
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "progress-logo",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https",
+		"autoReloadScriptsOnPreview": false,
+		"exportFileStructure": "folders",
+		"uidAllocationMode": "increment"
+	},
+	"viewportWidth": 1280,
+	"viewportHeight": 720,
+	"firstLayout": "Menu"
+}

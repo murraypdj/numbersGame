@@ -1,0 +1,255 @@
+{
+	"name": "Bonus 7",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 705544364019932,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "request-speech-recognition",
+					"objectClass": "SpeechRecognition",
+					"sid": 268479684158623,
+					"parameters": {
+						"language": "\"en\"",
+						"mode": "continuous",
+						"results": "final"
+					}
+				}
+			],
+			"sid": 995515960416530
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 747689039694097,
+					"parameters": {
+						"key": 16
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-speech-recognition",
+					"objectClass": "SpeechRecognition",
+					"sid": 349166822372122
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "mic",
+					"sid": 463202478287915,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 874997749907668
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-recognising-speech",
+					"objectClass": "SpeechRecognition",
+					"sid": 483031371232929
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "mic",
+					"sid": 149492487609942,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 509636828810621
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 989787531796385
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "SCORE",
+					"sid": 746416265901743,
+					"parameters": {
+						"text": "SCORE"
+					}
+				}
+			],
+			"sid": 437294685039447
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-result",
+					"objectClass": "SpeechRecognition",
+					"sid": 270327927668200
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 881033156989716,
+					"parameters": {
+						"variable": "stringy",
+						"value": "SpeechRecognition.FinalTranscript"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text",
+					"sid": 504367998550588,
+					"parameters": {
+						"text": "SpeechRecognition.FinalTranscript"
+					}
+				},
+				{
+					"callFunction": "GOAL CHECKER 14",
+					"sid": 647874343288411
+				}
+			],
+			"sid": 421009994116205
+		},
+		{
+			"functionName": "GOAL CHECKER 14",
+			"functionDescription": "",
+			"functionCategory": "",
+			"functionReturnType": "none",
+			"functionCopyPicked": false,
+			"functionIsAsync": false,
+			"functionParameters": [],
+			"eventType": "function-block",
+			"conditions": [],
+			"actions": [
+				{
+					"type": "script",
+					"script": "function checkgoal(string) {\n  const goals = [\"twelve red fish\",\"12 red fish\",2 \"redfish\"];\n\n  for (let i = 0; i < goals.length; i++) {\n    if (string.includes(goals[i])) {\n      return true;\n    }\n  }\n  \n  return false;\n}\n\nruntime.globalVars.booly = checkgoal(runtime.globalVars.stringy);"
+				}
+			],
+			"sid": 889345499556032
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 125243414555971,
+					"parameters": {
+						"variable": "booly"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 245823588345026,
+					"parameters": {
+						"variable": "booly",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "fireWorks",
+					"sid": 299241095862549,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "stop-speech-recognition",
+					"objectClass": "SpeechRecognition",
+					"sid": 114014864392645
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 423087072066202,
+					"parameters": {
+						"variable": "score",
+						"value": "500"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 261665176783446,
+					"parameters": {
+						"object-to-create": "MissionClear",
+						"layer": "0",
+						"x": "642",
+						"y": "364",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 885832945651140,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 417133050425450,
+					"parameters": {
+						"layout": "BONUS_8"
+					}
+				}
+			],
+			"sid": 655576220954738
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 164476561572384,
+					"parameters": {
+						"object": "MenuButton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 113905220272960,
+					"parameters": {
+						"layout": "Menu"
+					}
+				}
+			],
+			"sid": 464259177694067
+		}
+	],
+	"sid": 394144291000283
+}

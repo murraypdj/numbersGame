@@ -1,0 +1,296 @@
+{
+	"name": "MENU",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "score",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 684656842789874
+		},
+		{
+			"eventType": "variable",
+			"name": "stringy",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 555624763376035
+		},
+		{
+			"eventType": "variable",
+			"name": "booly",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 223149140911983
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 321313310083795
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "SCORE",
+					"sid": 439046610700727,
+					"parameters": {
+						"text": "SCORE"
+					}
+				}
+			],
+			"sid": 388578967643683
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 985182525664612,
+					"parameters": {
+						"object": "MENU_SC"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 946575404150140,
+					"parameters": {
+						"layout": "L1"
+					}
+				}
+			],
+			"sid": 533466891490369
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 644715124174341,
+					"parameters": {
+						"object": "ju"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 740596108936072,
+					"parameters": {
+						"layout": "BONUS_1"
+					}
+				}
+			],
+			"sid": 816941910842412
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 389397616413327,
+					"parameters": {
+						"object": "pencil"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 615879961273464,
+					"parameters": {
+						"layout": "L1"
+					}
+				}
+			],
+			"sid": 909388733463633
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 635134656901533,
+					"parameters": {
+						"object": "octoIco"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 274205900913894,
+					"parameters": {
+						"layout": "BONUS_4"
+					}
+				}
+			],
+			"sid": 543413047081420
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 670782157701282,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "MENU_SC"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 367271685365420,
+					"parameters": {
+						"layout": "L1"
+					}
+				}
+			],
+			"sid": 238803038559786
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 108098662016651,
+					"parameters": {
+						"object": "MenuButton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 456128275829524,
+					"parameters": {
+						"layout": "Menu"
+					}
+				}
+			],
+			"sid": 290693306900755
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 555452671212109,
+					"parameters": {
+						"interval-seconds": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "pencil",
+					"sid": 633795520844713,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 138561009875610
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 890740855468827,
+					"parameters": {
+						"interval-seconds": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "ju",
+					"sid": 106493128292921,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 107285329986199
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 717120997398870,
+					"parameters": {
+						"interval-seconds": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "octoIco",
+					"sid": 916485980720996,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 932497126785448
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 977575678318595
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "SCORE",
+					"sid": 924600502508282,
+					"parameters": {
+						"text": "SCORE"
+					}
+				}
+			],
+			"sid": 187861555577999
+		}
+	],
+	"sid": 179499046205187
+}

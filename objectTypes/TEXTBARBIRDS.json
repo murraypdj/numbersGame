@@ -1,0 +1,50 @@
+{
+	"name": "TEXTBARBIRDS",
+	"plugin-id": "Sprite",
+	"sid": 436715509162726,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1282,
+						"height": 74,
+						"originX": 0.5374414976599063,
+						"originY": 0.4864864864864865,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 525719,
+						"collisionPoly": {
+							"points": [
+								0.00078003120124805,
+								0,
+								0.999219968798752,
+								0,
+								0.999219968798752,
+								0.9864864864864865,
+								0.00078003120124805,
+								0.9864864864864865
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 705740406930982,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

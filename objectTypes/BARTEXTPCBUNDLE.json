@@ -1,0 +1,50 @@
+{
+	"name": "BARTEXTPCBUNDLE",
+	"plugin-id": "Sprite",
+	"sid": 295156756714331,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1282,
+						"height": 75,
+						"originX": 0.5764430577223089,
+						"originY": 0.44,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6685642,
+						"collisionPoly": {
+							"points": [
+								0.00078003120124805,
+								0,
+								0.999219968798752,
+								0,
+								0.999219968798752,
+								1,
+								0.00078003120124805,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 957629826198413,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

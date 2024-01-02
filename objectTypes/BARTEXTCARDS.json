@@ -1,0 +1,50 @@
+{
+	"name": "BARTEXTCARDS",
+	"plugin-id": "Sprite",
+	"sid": 332352301073212,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1282,
+						"height": 75,
+						"originX": 0.5390015600624025,
+						"originY": 0.5333333333333333,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4581303,
+						"collisionPoly": {
+							"points": [
+								0.00078003120124805,
+								0,
+								0.999219968798752,
+								0,
+								0.999219968798752,
+								1,
+								0.00078003120124805,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 457924697412783,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

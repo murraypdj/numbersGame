@@ -1,0 +1,50 @@
+{
+	"name": "BARTEXTCRAYONS",
+	"plugin-id": "Sprite",
+	"sid": 727627809641163,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1282,
+						"height": 75,
+						"originX": 0.592823712948518,
+						"originY": 0.49333333333333335,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2766459,
+						"collisionPoly": {
+							"points": [
+								0.00078003120124805,
+								0,
+								0.999219968798752,
+								0,
+								0.999219968798752,
+								1,
+								0.00078003120124805,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 737848705265255,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"name": "STAR",
+	"plugin-id": "Sprite",
+	"sid": 889154218940547,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 608,
+						"height": 578,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8208662,
+						"collisionPoly": {
+							"points": [
+								0.23848684210526316,
+								0.7093425605536331,
+								0.5,
+								0.005190311418685121,
+								0.7615131578947368,
+								0.7093425605536331,
+								0.8799342105263158,
+								0.5,
+								0.9210526315789473,
+								0.458477508650519,
+								0.5,
+								0.8269896193771626,
+								0.07730263157894737,
+								0.4602076124567474,
+								0.11842105263157894,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 969937094849423,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

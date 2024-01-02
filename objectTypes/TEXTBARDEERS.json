@@ -1,0 +1,50 @@
+{
+	"name": "TEXTBARDEERS",
+	"plugin-id": "Sprite",
+	"sid": 785074190472559,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1282,
+						"height": 74,
+						"originX": 0.531201248049922,
+						"originY": 0.6486486486486487,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1985857,
+						"collisionPoly": {
+							"points": [
+								0.001558845505146259,
+								0,
+								0.9984411544948537,
+								0,
+								0.9984411544948537,
+								0.8550036523009502,
+								0.001558845505146259,
+								0.8550036523009502
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 227860931634489,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

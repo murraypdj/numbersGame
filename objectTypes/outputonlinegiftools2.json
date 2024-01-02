@@ -1,0 +1,58 @@
+{
+	"name": "outputonlinegiftools2",
+	"plugin-id": "Sprite",
+	"sid": 659932520132809,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1122,
+						"height": 606,
+						"originX": 0.5553331363334509,
+						"originY": 0.42042051887307935,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9066556,
+						"collisionPoly": {
+							"points": [
+								0.07932263814616755,
+								0.09900990099009901,
+								0.5258467023172906,
+								0.10396039603960396,
+								0.9224598930481284,
+								0.19141914191419143,
+								0.9474153297682709,
+								0.4636963696369637,
+								0.9224598930481284,
+								0.735973597359736,
+								0.5258467023172906,
+								0.9092409240924092,
+								0.08021390374331551,
+								0.8267326732673267,
+								0.045454545454545456,
+								0.4636963696369637
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 332749827594665,
+				"name": "Default",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 10
+			}
+		],
+		"subfolders": []
+	}
+}

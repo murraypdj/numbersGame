@@ -1,0 +1,49 @@
+{
+	"name": "REWARD2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 592221224654756
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 498352991069043,
+					"parameters": {
+						"variable": "booly",
+						"value": "false"
+					}
+				},
+				{
+					"id": "stop-speech-recognition",
+					"objectClass": "SpeechRecognition",
+					"sid": 361361292499485
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 660543804736057,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 120405315845936,
+					"parameters": {
+						"layout": "Menu"
+					}
+				}
+			],
+			"sid": 248485938499502
+		}
+	],
+	"sid": 591149087249358
+}
